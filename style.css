@@ -1,0 +1,28 @@
+body {
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* background-color: red; */
+  height: 100vh;
+}
+
+.harry {
+  background: linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 0.75) 0%,
+      rgba(0, 0, 0, 0) 100%
+    ),
+    url("https://images.pexels.com/photos/15867258/pexels-photo-15867258/free-photo-of-a-building-with-a-roof-that-has-a-lot-of-tiles.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
+  background-size: 100%;
+  background-color: blueviolet;
+  width: 200px;
+  height: 200px;
+  color: white;
+}
+
+.bg-city {
+  width: 200px;
+}
